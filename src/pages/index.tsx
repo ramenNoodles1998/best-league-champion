@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <div className="p-8 text-xl italic">{"or"}</div>
         <div className="p-2" />
         <div>
-          <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg" />
+          <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg" />
         </div>
       </div>
     </div>
