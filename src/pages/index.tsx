@@ -18,19 +18,19 @@ const Home: NextPage = () => {
   }
 
   return (
-    <div className="relative flex h-screen w-screen flex-col items-center justify-between">
+    <div className="relative flex h-screen w-screen flex-col items-center justify-center">
       <Head>
         <title>Hottest League Champion</title>
       </Head>
       <div className="pt-8 text-center text-2xl">Which League Champ is Hotter?</div>
-      <div className="animate-fade-in flex max-w-2xl flex-col items-center justify-between p-8 md:flex-row">
+      <div className="animate-fade-in flex max-w-2xl flex-col items-center justify-between align-center p-8 md:flex-row">
         <div>
-          league 2
+          <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg" />
         </div>
         <div className="p-8 text-xl italic">{"or"}</div>
         <div className="p-2" />
         <div>
-          league 1
+          <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg" />
         </div>
       </div>
     </div>
